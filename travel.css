@@ -36,6 +36,9 @@
    margin: 0 auto;
    background-color: #14183E;
    color: #fff;
+   border: 1px solid /;
+   padding: 2px;
+   border-radius: 2px;
  }
  
  .three-dots span {
@@ -197,7 +200,6 @@ body{
           font-weight: 800;
           font-size: 20px;
           line-height: 30px;
-          /* identical to box height */
           text-transform: uppercase;
 
           color: #DF6951;
@@ -1137,6 +1139,11 @@ margin:0px 10px;
 cursor: pointer;
 }
 
+.search{
+   height: 40px;
+   position: relative;
+   z-index: -1;
+}
 .subscribe-email-search input{
    font-size: small;
    font-weight: bold;
@@ -1325,4 +1332,380 @@ body{
 .subscribe-email{
    position: relative;
    bottom: 750px;
+}
+
+@media screen and (max-width:450px) {
+
+   .sidebar{
+      width:180px;
+      height: 400px;
+   }
+   
+
+
+
+   .table-of-contents{
+      position: relative;
+      margin-left: 10px;
+      height: 780px;
+      margin-top: -20px;
+   }
+   .company-pages{
+      width:300px;
+      position: absolute;
+      left:160px;
+      top:200px;
+      display: block;
+   }
+   .company-pages-title{
+      width:120px;
+   }
+   .tagline{
+      font-size: small;
+      margin-top: 40px;
+      margin-bottom: 40px;
+   }
+
+   .Events{
+
+      z-index: 20;
+   }
+
+   .title{
+      width:260px;
+      position: relative;
+      top:80px;
+   }
+
+   .heading-title{
+      width:260px;
+      font-size: 26px;
+      position: relative;
+      top:40px;
+   }
+   .heading-text{
+      width:200px;
+     position: relative;
+     left:20px;
+      top:-670px;
+   }
+
+   .Customization-title{
+      width:140px;
+   }
+
+   .Customization{
+      width: 170px;
+      height: 300px;
+      z-index: 10;
+      padding: 10px;
+   }
+
+   .second-condition{
+      margin-top: -100px;
+   }
+
+   .Play-Demo{
+      position: relative;
+      top:-650px;
+      left:-20px;
+   }
+   .Vector{
+      position: relative;
+      top:-140px;
+      left:-10px;
+      width:300px;
+
+   }
+
+   .first{
+      height: 1200px;
+   }
+
+   .second{
+      height:1900px;
+
+   }
+   .O{
+      font-size: larger;
+   }
+
+   .second-title{
+      position: relative;
+      left:-530px;
+   }
+
+   .Flight{
+      position: relative;
+      left: -20px;
+   }
+
+   .traveller-image{
+      visibility: hidden;
+   }
+   .category-collection{
+      display: block;
+      width:400px;
+      position: relative;
+      left:80px;
+   }
+
+   .common{
+      margin-bottom: 100px;
+   }
+
+
+   .third-title{
+      position: relative;
+      top:750px;
+      z-index: 2;
+      left:-560px;
+
+   }
+   .third-condition{
+      position: relative;
+      top:-1000px;
+   }
+   .third{
+      height:2200px;
+      margin-bottom: 1500px;
+      margin-top: -200px;
+   }
+   .fourth{
+      height: 1600px;
+      margin-top: -1000px;
+   }
+
+   .place-images{
+      display: block;
+   }
+   .Destination{
+      font-size: larger;
+   }
+
+   .third-collection{
+      position: relative;
+      top:800px;
+      left:-60px;
+      z-index: 4;
+   }
+
+   .place-description{
+      display: block;
+   }
+
+   .London{
+      position: relative;
+      bottom: 1146px;
+      left: -16px;
+   }
+
+   .Europe{
+      position: relative;
+      left:-16px;
+      top: -650px;
+   }
+
+   .Rome{
+      position: relative;
+      bottom: 1623px;
+   }
+   
+   .common-image{
+      display: block;
+   }
+
+   .fourth{
+      margin-top: -1600px;
+      margin-left: -60px;
+   }
+
+   .main-title{
+      font-size: larger;
+   }
+
+   .destination-description{
+      font-size: small;
+      width:240px;
+   }
+
+   .destination-title{
+      font-size: small;
+   }
+
+   .fourth-condition{
+      display: block;
+   }
+   .small-title{
+      margin-left: 30px;
+   }
+   .fourth-trip-about{
+      position: relative;
+      left:-280px;
+      width:300px;
+      height: 200px;
+   }
+
+   .greece-image{
+      width:260px
+   }
+
+   .second-box{
+      position: relative;
+      bottom: -40px;
+      left: 1px;
+      width: 280px;
+   }
+
+   .love-icon{
+      position: relative;
+      left: 100px;
+   }
+
+   .fifth{
+      margin-top: -340px;
+      margin-left: -100px;
+   }
+
+   .fifth-heading{
+      font-size: 30px;
+      width: 300px;
+   }
+
+   .decor{
+      visibility: hidden;
+   }
+
+   .spring-pattern{
+      visibility: hidden;
+   }
+
+   .pattern{
+      visibility: hidden;
+   }
+
+   .fifth-upper{
+      display: block;
+   }
+
+   .fifth-main-title{
+      width:250px;
+   }
+
+   .fifth-notification{
+      position: relative;
+      left:150px;
+   }
+
+   .notification-description{
+      font-size: medium;
+      width:200px;
+   }
+
+   .notification-first-box{
+      width:240px;
+      height: 280px;
+   }
+
+   .notification-second-box{
+      width:196px;
+   }
+
+   .fifth-collection{
+      visibility: hidden;
+   }
+
+   .subscribe-image-1{
+      visibility: hidden;
+   }
+
+   .subscribe-image-2{
+      visibility:hidden;
+   }
+
+   .subscribe-icon{
+      visibility: hidden;
+   }
+
+   .subscribe-information-text{
+      font-size: large;
+      position: relative;
+      left:-160px;
+      width:300px;
+      bottom:600px;
+   }
+
+   .subscribe-information{
+      width:550px;
+      position: relative;
+      left:-100px;
+   }
+
+   .subscribe-email-search{
+      position: relative;
+      left:-300px;
+
+   }
+   .search{
+      position: relative;
+      top:-100px;
+      left: 10px;
+   }
+   .email-icon{
+      position: relative;
+      top: -85px;
+   }
+
+   .subscribe-button{
+      position: relative;
+      left: -200px;
+      top:-40px;
+   }
+   body{
+      position: relative;
+      left:-20px;
+   }
+   .footer{
+      height: 1300px;
+   }
+   .company-details{
+      display: block;
+   }
+
+   .company-logo-details{
+      position: relative;
+      left:-120px;
+      margin-bottom: 60px;
+   }
+
+   .company-collection-table{
+      width:250px;
+      position: relative;
+      left:-80px;
+   }
+
+   th{
+      font-size: small;
+   }
+
+   td{
+      font-size: smaller;
+   }
+
+  #second{
+   position: relative;
+   left:-30px;
+  }
+
+  #third{
+   position: relative;
+   left:-30px;
+  }
+
+  .company-contact{
+   position: relative;
+   left:-20px;
+  }
+
+
 }
