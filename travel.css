@@ -1354,7 +1354,18 @@ body{
       width:180px;
       height: 400px;
    }
-   
+
+   body {
+      overflow-x: hidden !important;
+  }
+
+  .container{
+   width:500px;
+   overflow-x: hidden;
+  }
+  .fifth{
+   overflow-x: hidden;
+  }
 
 
 
@@ -1434,12 +1445,14 @@ body{
 
    .first{
       height: 1200px;
+      
    }
 
    .second{
       height:1900px;
 
    }
+
    .O{
       font-size: larger;
    }
